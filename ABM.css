@@ -101,9 +101,12 @@ span{
 .wimgw{
   display: flex;
 }
-.who, .wimg, .what{
+.who, .what {
   padding: 10px;
+  color:rgb(86, 75, 238);
 }
+
+
   
   #intro{
     color: rgb(140, 150, 243);
@@ -368,7 +371,24 @@ hamburger styles
  text-decoration: none;
 }
 
+button{
+  width: 100px;
+  height: 22px;
+  background:#57517a;
+   border: none;
+  color: white ;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px ;
+}
 
+button:hover{
+  cursor: pointer;
+  color:  #ffffff;
+  background-color: #7365c0;
+  width: 150px;
+}
 
 
 /* #grad1 {
