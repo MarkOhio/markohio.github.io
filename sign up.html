@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="rainbow-box">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link href="sign up style.css" rel="stylesheet">
+</head>
+<body>
+
+<center>
+    <div class="content">
+        <form action="/action_page.php" method="post">
+              <div class="container">
+                 <h1>Register</h1>
+                 <p>Please fill in this form to recive notifications from ART BY MARK.</p>
+                 <hr>             
+              <label for="Full Name"><b>Card Name</b></label><br>
+                 <input type="text" placeholder="Name on the card front" name="fullname" required><br>
+              
+              <label for="email" class="email"><b>Email  </b></label><br>
+                 <input type="email" placeholder="Enter Email" name="email" id="email" required><br>
+              
+              <label for="psw"><b>Password</b></label><br>
+                 <input type="password" placeholder="Password" id="password" required><br>
+              <label for="psw-repeat"><b>Repeat Password</b></label><br>
+                 <input type="password" placeholder="Confirm Password" id="confirm_password" required><br>
+                                         <hr>
+     
+               <div class="flash">
+                 <input type="submit" class="submitbtn" value="submit" id="submit" onclick="submitForm()"><br>
+                 <button id="clear" class="reset">clear</button>
+               </div>
+        </div>
+     
+           <footer>
+              <div class="container-signin">
+               <a href="index.html">Previous Page</a>
+                 <h2><p> Already have an account? <a href="wlc back page.html">Sign in</a> </p></h2>
+                 
+            
+              </div>
+     
+           </footer>
+        </form>
+     </div>
+</center> 
+        <script>
+                 var password = document.getElementById("password")
+           , confirm_password = document.getElementById("confirm_password");
+     
+           function validatePassword(){
+           if(password.value != confirm_password.value) {
+              confirm_password.setCustomValidity("Passwords Don't Match");
+           } else {
+              confirm_password.setCustomValidity('');
+           }
+           }
+     
+           password.onchange = validatePassword;
+           confirm_password.onkeyup = validatePassword;
+        </script>
+     
+    
+</body>
+</html>

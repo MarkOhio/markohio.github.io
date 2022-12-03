@@ -1,0 +1,171 @@
+html {
+  background-color:  rgb(7, 2, 26);
+}
+.rainbow-box{
+  height:657px;
+  background-size: cover;
+background: linear-gradient(
+  170deg, 
+rgb(1, 0, 17) 0%,
+ rgb(1, 1, 41) 10%, 
+ rgb(5, 1, 61) 20%, 
+ rgb(8, 1, 100) 30%, 
+ rgb(3, 1, 117) 40%, 
+ rgb(6, 3, 197) 50%, 
+ 
+rgb(40, 28, 201) 60%, 
+rgba(95,21,242,1) 70%, 
+rgba(186,12,248,1) 80%, 
+rgba(251,7,217,1) 90%, 
+rgba(255,0,0,1) 100%
+);
+}
+
+/* label {
+font-size: 16px;
+border: white;
+outline: none;
+color: rgb(255, 255, 255);
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; 
+margin: 0px; 
+border-radius: 25px;
+box-shadow: 0px 8px 16px 0px rgba(95, 95, 91, 0.2);
+} */
+
+/* h1 {
+  border: none;
+outline: none;
+color: rgb(255, 255, 255);
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; 
+margin: 0px; 
+border-radius: 25px;
+box-shadow: 0px 8px 16px 0px rgba(95, 95, 91, 0.2);
+} */
+
+/* p {
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0px; 
+  border-radius: 25px;
+  box-shadow: 0px 8px 16px 0px rgba(95, 95, 91, 0.2);
+} */
+.submitbtn{
+  background-color:transparent;
+  border: 2px solid black;
+  color: rgb(255, 255, 255);
+  padding: auto;
+  text-align: center ;
+  text-decoration: poppins;
+  cursor: pointer;
+  opacity: 2px;
+  border-radius: 25px;
+  height: 40px;
+  width: 500px;
+  box-shadow: rgb(62, 231, 57);
+}
+
+.submitbtn:hover{
+  opacity: 1px;
+  padding: 14px 16px;
+  
+  /* color: rgb(62, 231, 57); */
+  
+}
+
+.container{
+background-color: transparent;
+font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1, p, input, .container{
+  text-align: center;
+}
+
+/* input{
+  border:50px;
+  outline: white;
+  color: rgb(192, 23, 23);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0px; 
+  border-radius: 25px;
+  box-shadow: 0px 8px 16px 0px rgba(95, 95, 91, 0.2);
+} */
+input{
+  border: 2px solid black;
+  background-color: transparent;
+  margin: 15px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+  border: 50px;
+  outline: white;
+  color: rgb(157, 150, 241);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0px; 
+  border-radius: 25px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+  width: ;
+  height: 620px;
+  text-align: center;
+}
+.content{
+  margin-top:0px   ;
+    margin-left: 300px;
+    /* margin-right: 300px; */
+}
+h6{
+  margin-bottom: 20px;
+}
+
+.container-signin a{
+font-size: 15px;
+text-decoration: none;
+}
+#clear{
+  height: 40px;
+  width: 50px;
+  background-color:transparent;
+  border: 2px solid black;
+  color: rgb(255, 255, 255);
+  padding: auto;
+  text-align: center ;
+  text-decoration: poppins;
+  cursor: pointer;
+  opacity: 2px;
+  border-radius: 25px;
+}
+.flash{
+  display: flex;
+  align-content: center;
+}
+.flash button{
+  margin-top: 15px;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+hr{
+  color: red;
+}
+
+@media only screen and (min-width: 480px) and (max-width:780px){
+  .container, .flash, .container-signin
+  }
